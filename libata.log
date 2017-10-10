@@ -1,0 +1,51 @@
+Device: sat16:/dev/sda
+Type: 16 Byte SCSI ATA SAT Passthru
+Size: 238418 MiB
+Model: [ST3250318AS]
+Serial: [9VYAL22M]
+Firmware: [CC46]
+SMART Available: yes
+Quirks:
+Awake: yes
+SMART Disk Health Good: yes
+Off-line Data Collection Status: [Off-line data collection activity was completed without error.]
+Total Time To Complete Off-Line Data Collection: 600 s
+Self-Test Execution Status: [The previous self-test routine completed without error or no self-test has ever been run.]
+Percent Self-Test Remaining: 0%
+Conveyance Self-Test Available: yes
+Short/Extended Self-Test Available: yes
+Start Self-Test Available: yes
+Abort Self-Test Available: yes
+Short Self-Test Polling Time: 1 min
+Extended Self-Test Polling Time: 41 min
+Conveyance Self-Test Polling Time: 2 min
+Bad Sectors: 0 sectors
+Powered On: 1.8 months
+Power Cycles: 93
+Average Powered On Per Power Cycle: 13.9 h
+Temperature: 33.0 C
+Attribute Parsing Verification: Bad
+Overall Status: GOOD
+ID# Name                        Value Worst Thres Pretty      Raw            Type    Updates Good Good/Past
+  1 raw-read-error-rate         116    99     6   110196124   0x9c7591060000 prefail online  yes  yes 
+  3 spin-up-time                 97    97     0   n/a         0x000000000000 prefail online  n/a  n/a 
+  4 start-stop-count            100   100    20   186         0xba0000000000 old-age online  yes  yes 
+  5 reallocated-sector-count    100   100    36   0 sectors   0x000000000000 prefail online  yes  yes 
+  7 seek-error-rate              63    60    30   2317543     0xe75c23000000 prefail online  yes  yes 
+  9 power-on-hours               99    99     0   1.8 months  0x0a0500000000 old-age online  n/a  n/a 
+ 10 spin-retry-count            100   100    97   0           0x000000000000 prefail online  yes  yes 
+ 12 power-cycle-count           100   100    20   93          0x5d0000000000 old-age online  yes  yes 
+183 runtime-bad-block-total     100   100     0   0           0x000000000000 old-age online  n/a  n/a 
+184 end-to-end-error            100   100    99   0           0x000000000000 old-age online  yes  yes 
+187 reported-uncorrect          100   100     0   0 sectors   0x000000000000 old-age online  n/a  n/a 
+188 command-timeout             100   100     0   1           0x010000000000 old-age online  n/a  n/a 
+189 high-fly-writes             100   100     0   0           0x000000000000 old-age online  n/a  n/a 
+190 airflow-temperature-celsius  67    60    45   33.0 C      0x210017210000 old-age online  yes  yes 
+194 temperature-celsius-2        33    40     0   33.0 C      0x210000001000 old-age online  n/a  n/a 
+195 hardware-ecc-recovered       26    21     0   110196124   0x9c7591060000 old-age online  n/a  n/a 
+197 current-pending-sector      100   100     0   0 sectors   0x000000000000 old-age online  n/a  n/a 
+198 offline-uncorrectable       100   100     0   0 sectors   0x000000000000 old-age offline n/a  n/a 
+199 udma-crc-error-count        200   200     0   0           0x000000000000 old-age online  n/a  n/a 
+240 head-flying-hours           100   253     0   2.1 months  0xfa0500003c78 old-age offline n/a  n/a 
+241 total-lbas-written          100   253     0   69375.123 TB 0x37273c7b0000 old-age offline n/a  n/a 
+242 total-lbas-read             100   253     0   112665.295 TB 0xa13e22c80000 old-age offline n/a  n/a 
